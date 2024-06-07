@@ -42,7 +42,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I'm a MERN Stack Developer proficient in Website, Mobile, and Software
+          I&apos;sm a MERN Stack Developer proficient in Website, Mobile, and Software
           Development. Explore my portfolio to see my projects and skills in
           action!
         </motion.p>
