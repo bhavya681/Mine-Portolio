@@ -9,16 +9,15 @@ interface Props {
 
 const ProjectCard = ({ src, title, description }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+    <div className="relative overflow-hidden rounded-xl hover:cursor-pointer shadow-lg border border-[#2A0E61]" style={{cursor:"pointer",borderRadius:"34px",padding:"8px"}}>
       <Image
         src={src}
         alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
+        width={600}
+        height={700}
+        className="w-full object-contain hover:cursor-pointer rounded-xl"
       />
-
-      <div className="relative p-4">
+      <div className="relative p-4 hover:cursor-pointer">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
       </div>
